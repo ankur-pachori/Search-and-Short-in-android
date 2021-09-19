@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/search_bar"
+    android:icon="@drawable/ic_search_24"
+    android:title="Search"
+    app:showAsAction="always"
+    app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item android:id="@+id/menu_switch"
+        android:icon="@drawable/ic_sort_24"
+        android:title="Sort"
+        app:showAsAction="collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat" />
+</menu>
